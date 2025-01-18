@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+.titulo-filme {
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 35px;
+}
+
+.img {
+    margim: 0 auto;
+  
+}
+
+ul {
+    color: white;
+    font-size: 20px;
+}
+
+.trailer {
+    list-style: none;
+}
+
+.sinopse,
+.elenco {
+    padding-bottom: 15px;
+}
+
+table, th, td{
+    border: 1px solid;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
