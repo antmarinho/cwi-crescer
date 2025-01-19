@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    height: 979px;
+    background: white;
+}
+
+.fundo {
+    width: 634px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
+}
+
+.sobre {
+    position: absolute;
+    width: 634px;
+    height: 180px;
+    left: 651px;
+    top: 595px;
+    opacity: 0.5;
+    background: #000000;
+}
+
+.text {
+    position: absolute;
+    width: 594px;
+    height: 147px;
+    left: 661px;
+    top: 610px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
