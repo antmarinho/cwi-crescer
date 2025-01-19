@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+	
+}
+
+.app{
+    display: flex;
+}
+
+.conversa{
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #bbbbbb;
+}
+
+.person {
+    width: 411px;
+    height: 60px;
+    background: #ebe6e6;
+}
+
+.foto{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.see{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    margin-left: 381px;
+    margin-top: 23px;
+}
+
+.chat {
+    display:flex;
+    flex-direction: column;
+    width: 411px;
+    height: 80px;
+    margin-left: 1;
+    background: white;
+}
+
+.foto-chat {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
+.nome-chat {
+    height: 24px;
+    width: 255px;
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 20px;
+
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #656565;
+}
+
+.text-chat {
+    height: 16px;
+    width: 255px;
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 46px;
+
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;    
+    color: #888888;
+}
+
+.hours-chat {
+    width: 23px;
+    position: absolute;
+    margin-left: 367px;
+    margin-top: 33px;
+
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 13px;
+    color: #888888;
+}
+
+.header {
+    height: 1px;
+    width: 410px;
+    left: 0px;
+    top: 79px;
+    border-radius: 0px;
+    background: #ebe6e6;
+}
+
+.back {
+    width: 411px;
+    height: 667px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: white;
+}
+
+.whats{
+    display: inline;
+    width: 956px;
+    height: 667px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
