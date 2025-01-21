@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/common/style.css">
+    <link rel="stylesheet" href="../../assets/css/common/header.css">
+    <link rel="stylesheet" href="../../assets/css/common/footer.css">
+    <link rel="stylesheet" href="../../assets/css/contact/contact.css">
+    <title>Contato</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../../assets/img/contact/LOGO.png" alt="logo">
+            </div>
+            <div class="menu">
+              <ul>
+                  <li><a href="../../index.html">Home</a></li>
+                  <li><a href="../sobre/index.html">Sobre</a></li>
+                  <li><a href="#">Serviços</a></li>
+                  <li><a href="../contato/index.html">Contato</a></li>
+              </ul>
+          </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <h1>Contato</h1>
+            <p>Olá, somos a Lorem Ipsum.<br> Nosso trabalho é desenvolver textos de marcação.</p>
+        </section>
+    </main>
+    <div class="container">
+        <div class="form">
+            <div class="msg">
+                <img src="../../assets/img/contact/ENVELOP.png" alt="msg" />
+                <h2>Envie-nos uma mensagem</h2>
+            </div>
+             <form action="#" class="form-container">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="José Maria da Silva" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@email.com" required />
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="area">Ramo em que atua</label>
+                    <select name="area" id="area" required>
+                      <option value=""  selected>Selecione...</option>
+                      <option value="tecnologia">Tecnologia</option>
+                      <option value="saude">Saúde</option>
+                      <option value="educacao">Educação</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="subject">Assunto</label>
+                    <div class="form-radio-group">
+                      <label>Investimento</label>
+                      <input type="radio" name="subject" value="investimento" required />
+                      <label>Contratação</label>
+                      <input type="radio" name="subject" value="contratacao" required /> 
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="message">Mensagem</label>
+                  <textarea name="message" id="message" placeholder="Digite sua mensagem aqui" rows="5" required></textarea>
+                </div>
+                <div class="form-action">
+                  <div class="checkbox">
+                    <input type="checkbox" id="politica" required>
+                    <label for="politica">Li e concordo com a <a href="#">política de privacidade</a></label>
+                  </div>
+                  <button type="submit" class="form-submit btn">ENVIAR</button>
+                </div>
+              </form>
+              
+        </div>
+        <div class="contato">
+          <h2>Informações de contato</h2>
+          <ul>
+              <li>
+                  <img src="../../assets/img/contact/localizacao.png" alt="icone">
+                  Av. Theodomiro Porto da <br>Fonseca, 3101 - Cristo Rei, São <br>Leopoldo - RS, 93022-715
+              </li>
+              <li>
+                  <img src="../../assets/img/contact/celular.png" alt="icone">
+                  (51) 3081-3600
+              </li>
+              <li>
+                  <img src="../../assets/img/contact/email.png" alt="icone">
+                  contato@loremipsumgram.com
+              </li>
+          </ul>
+      </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="../../assets/img/contact/LOGO.png" alt="logo">
+                </div>
+                <ul class="footer-menu">
+                  <li><a href="../../index.html">Home</a></li>
+                  <li><a href="../sobre/index.html">Sobre</a></li>
+                  <li><a href="#">Serviços</a></li>
+                  <li><a href="#">Contato</a></li>
+              </ul>              
+            </div>
+            <div class="footer-cwi">
+                <img src="../../assets/img/contact/CRESCER LOGO.png" alt="logocwi">
+            </div>
+        </div>
+        <p class="footer-copyright">Copyright ©. Todos os direitos reservados à Lorem Ipsum.</p>
+    </footer>
+</body>
+</html>
